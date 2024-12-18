@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_ASG_TABLE'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ASG_TABLE'
+  }
+}
+define service ZUI_ZASGDEMO_O4 provider contracts odata_v4_ui {
+  expose ZC_ASG_TABLE;
+}
